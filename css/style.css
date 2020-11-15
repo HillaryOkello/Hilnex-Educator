@@ -1,0 +1,25 @@
+@import url(../css/fonts.css);
+.header {
+  background-color: #f31c1c;
+  height: 65px;
+}
+.header .list {
+  color: #fff;
+  list-style: none;
+}
+.header .list .nav-link {
+  display: none;
+}
+.header .list .nav-item:hover {
+  background-color: #f65d5d;
+}
+.header .list .nav-item i {
+  margin: 5px;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

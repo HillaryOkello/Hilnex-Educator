@@ -1,0 +1,29 @@
+$white: #fff;
+$black: #000;
+$background: rgb(243, 28, 28);
+
+.header {
+  background-color: $background;
+  height: 65px;
+
+  .list {
+    color: $white;
+    list-style: none;
+  
+    .nav-link {
+      display: none;
+    }
+
+    .nav-item {
+      &:hover {
+        background-color: rgb(246, 93, 93);
+      }
+    }
+  
+    .nav-item i {
+      margin: 5px;
+      padding: 20px;
+      font-size: 1.2em;
+    }
+  }
+}
