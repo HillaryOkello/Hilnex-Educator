@@ -9,3 +9,136 @@
 $white: #fff;
 $black: #000;
 $background: rgb(243, 28, 28);
+
+.search {
+  background: url(https://images.pexels.com/photos/7102/notes-macbook-study-conference.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;
+  height: 100vh;
+  background-size: cover;
+
+  form {
+    background: rgb(225, 227, 225, 0.7);
+    width: 100%;
+    border-radius: 20px;
+
+    input {
+      outline: none;
+      border: none;
+      font-size: 1.2em;
+    }
+
+    button {
+      background-color: $background;
+      outline: none;
+      border: none;
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+  }
+
+  .bt {
+    border: none;
+    font-size: 1.1em;
+  }
+}
+
+.content {
+  margin-top: 30px;
+
+  h3 {
+    color: $background;
+    text-align: center;
+  }
+
+  .works i {
+    font-size: 2.2em;
+  }
+}
+
+.more {
+  background-color: rgb(245, 101, 101);
+
+  h5 {
+    font-size: 1.5em;
+    color: $white;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: $white;
+  }
+
+  button {
+    background-color: $white;
+    border: none;
+    color: $background;
+    font-size: 1.2em;
+  }
+}
+
+.enroll-img img{
+  width: 50%;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.anywhere {
+  background-color: gray;
+
+  h5 {
+    font-size: 1.5em;
+    color: $white;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: $white;
+  }
+
+  button {
+    background-color: $white;
+    border: none;
+    color: gray;
+    font-size: 1.2em;
+  }
+}
+
+footer {
+  .foot-1 {
+    background-color: $black;
+
+    .foot-list {
+      border-top: 1px solid $white;
+      border-bottom: 1px solid $white;
+      list-style: none;
+
+      li a{
+        color: $white;
+        font-size: 1.4em;
+      }
+    }
+
+    .sub button {
+      background-color: gray;
+      color: $white;
+    }
+
+    .con p a {
+      color: $background;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+
+  .foot-2 {
+    background-color: gray;
+
+    .foot-icons {
+      list-style: none;
+      font-size: 1.5em;
+
+      li a {
+        color: $white;
+      }
+    }
+  }
+}
