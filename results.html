@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<title>Hilnex Educator</title>
+</head>
+<body>
+
+  <nav class="header d-flex justify-content-between">
+    <div class="logo">
+      <img src="./assets/images/Hilnex-E.png" alt="">
+    </div>
+
+    <div class="nav-list">
+      <ul class="list d-flex">
+        <li class="nav-item">
+          <a href="index.html" class=" text-white"><i class="fa fa-home"></i></a> <a href="index.html" class="nav-link"> Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="results.html" class=" text-white"><i class="fa fa-book"></i></a><a href="results.html" class="nav-link"> Courses</a>
+        </li>
+        <li class="nav-item">
+          <a href="details.html" class=" text-white"><i class="fa fa-tag"></i></a> <a href="details.html" class="nav-link"> Course details</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="filter d-flex flex-column align-items-center py-5 mt-5">
+      <h3>Filter by skills, job title, level, duration:</h3>
+      <div class="srch container">
+        <label class="m-2"> Skills:
+          <select name="skills" >
+            <option value="">Computer Science</option>
+            <option value="">Python syntax and semantics</option>
+            <option value="">Data Science</option>
+          </select>
+        </label>
+        
+
+        <label class="m-2"> Job title:
+          <select name="course" >
+            <option value="">Software Developer</option>
+            <option value="">Data Scientist</option>
+            <option value="">Project Manager</option>
+          </select>
+        </label>
+
+          <label class="m-2"> Level:
+            <select name="Level">
+              <option value="">Beginner</option>
+              <option value="">Intermediate</option>
+              <option value="">Advanced</option>
+            </select>
+          </label>
+
+            <label class="m-2"> Duration:
+              <select name="Duration" >
+                <option value="">3-months</option>
+                <option value="">6-months</option>
+                <option value="">1-year</option>
+              </select>
+            </label>
+
+            <button type="submit" class="btn-primary p-1 border-0">Search</button>
+      </div>
+    </div>
+
+    <section class="result d-flex flex-column align-items-center mt-5">
+      <h3 class="my-4">Search result found 4 course(s).</h3>
+      
+      <div class="">
+        <div class="row container">
+          <div class="col-md-4">
+            <div class="card mb-5">
+              <a href="details.html">
+                <img class="card-img-top" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/ddp/branding/master-of-data-science-hse/banner.jpg?auto=format%2Ccompress&dpr=1&w=300&h=&fit=crop" alt="">
+              </a>
+              <div class="card-body">
+                <a href="details.html">
+                  <h5 class="card-title text-dark">Master of Computer Science</h5>
+                  <p class="card-text text-dark">from International University of East Africa</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-5">
+              <a href="details.html">
+                <img class="card-img-top" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/ddp/branding/master-of-data-science-hse/banner.jpg?auto=format%2Ccompress&dpr=1&w=300&h=&fit=crop" alt="">
+              </a>
+              <div class="card-body">
+                <a href="details.html">
+                  <h5 class="card-title text-dark">Master of Applied Data Science</h5>
+                  <p class="card-text text-dark">from International University of East Africa</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-5">
+              <a href="details.html">
+                <img class="card-img-top" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/ddp/branding/mcs-ds/header_mcsds-darkened.jpg?auto=format%2Ccompress&dpr=1&w=300&h=&fit=crop" alt="">
+              </a>
+              <div class="card-body">
+                <a href="details.html">
+                  <h5 class="card-title text-dark">Master of machine Learning</h5>
+                  <p class="card-text text-dark">from International University of East Africa</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <section class="foot-1">
+      <div class="ul py-4">
+        <ul class="foot-list d-flex py-3 justify-content-center">
+          <li>
+            <a href="#" class="m-2 px-2">Home</a>
+          </li>
+          <li>
+            <a href="#" class="m-2 px-2">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="m-2 px-2">
+              <i class="fas fa-search-location"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="m-2 px-2">Search</a>
+          </li>
+          <li>
+            <a href="#" class="m-2 px-2">Enroll</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="d-flex sub-con container">
+        <div class="col-md-4 text-white py-3 sub ml-3">
+          <h4>Subscribe</h4>
+          <form>
+            <input type="email" >
+              <button type="submit" class="px-2">Send</button>
+          </form>
+        </div>
+
+        <div class="col-md-4 text-white py-3 ml-3 con">
+          <h4>Contact</h4>
+          <p>
+            Contact us via email at <a href="#">hilnex-Edu@outlook.com</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 text-white py-3 ml-3">
+          <h4>About</h4>
+          <p>
+            We are an online course finder we help you get access to the best courses on the internet at affordable prices
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="foot-2 p-4">
+      <ul class="foot-icons d-flex justify-content-center">
+        <li class="p-3">
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="p-3">
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="p-3">
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="p-3">
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

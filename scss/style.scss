@@ -1,4 +1,7 @@
 @use '_header.scss';
+@use '_results.scss';
+@use '_details.scss';
+
 @import url(../css/fonts.css);
 
 * {
@@ -10,6 +13,48 @@ $white: #fff;
 $black: #000;
 $background: rgb(243, 28, 28);
 
+.more {
+  background-color: rgb(245, 101, 101);
+
+  h5 {
+    font-size: 1.5em;
+    color: $white;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: $white;
+  }
+
+  button {
+    background-color: $white;
+    border: none;
+    color: $background;
+    font-size: 1.2em;
+  }
+}
+
+.anywhere {
+  background-color: gray;
+
+  h5 {
+    font-size: 1.5em;
+    color: $white;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: $white;
+  }
+
+  button {
+    background-color: $white;
+    border: none;
+    color: gray;
+    font-size: 1.2em;
+  }
+}
+
 .search {
   background: url(https://images.pexels.com/photos/7102/notes-macbook-study-conference.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;
   height: 100vh;
@@ -19,6 +64,10 @@ $background: rgb(243, 28, 28);
     background: rgb(225, 227, 225, 0.7);
     width: 100%;
     border-radius: 20px;
+
+    .search-box {
+      flex-direction: column;
+    }
 
     input {
       outline: none;
@@ -54,52 +103,10 @@ $background: rgb(243, 28, 28);
   }
 }
 
-.more {
-  background-color: rgb(245, 101, 101);
-
-  h5 {
-    font-size: 1.5em;
-    color: $white;
-  }
-
-  p {
-    font-size: 1.2em;
-    color: $white;
-  }
-
-  button {
-    background-color: $white;
-    border: none;
-    color: $background;
-    font-size: 1.2em;
-  }
-}
-
-.enroll-img img{
+.enroll-img img {
   width: 50%;
   border-radius: 50%;
   background: #fff;
-}
-
-.anywhere {
-  background-color: gray;
-
-  h5 {
-    font-size: 1.5em;
-    color: $white;
-  }
-
-  p {
-    font-size: 1.2em;
-    color: $white;
-  }
-
-  button {
-    background-color: $white;
-    border: none;
-    color: gray;
-    font-size: 1.2em;
-  }
 }
 
 footer {
@@ -111,7 +118,7 @@ footer {
       border-bottom: 1px solid $white;
       list-style: none;
 
-      li a{
+      li a {
         color: $white;
         font-size: 1.4em;
       }
@@ -138,6 +145,37 @@ footer {
 
       li a {
         color: $white;
+      }
+    }
+  }
+}
+
+$breakpoint-mobile: 786px;
+
+@media (max-width: $breakpoint-mobile) {
+  .sub-con {
+    flex-direction: column;
+  }
+}
+
+$breakpoint-tablet: 768px;
+
+@media (min-width: $breakpoint-tablet) {
+  .search {
+    .text {
+      width: 70%;
+    }
+
+    form {
+      .search-box {
+        flex-direction: row !important;
+        width: 100%;
+
+        input {
+          width: 80%;
+          margin-right: 0;
+          padding-right: 0;
+        }
       }
     }
   }

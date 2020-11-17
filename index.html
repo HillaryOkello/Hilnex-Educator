@@ -20,13 +20,13 @@
     <div class="nav-list">
       <ul class="list d-flex">
         <li class="nav-item">
-          <i class="fa fa-home"></i> <a href="#" class="nav-link"> Home</a>
+          <a href="index.html" class=" text-white"><i class="fa fa-home"></i></a> <a href="index.html" class="nav-link"> Home</a>
         </li>
         <li class="nav-item">
-          <i class="fa fa-book"></i> <a href="#" class="nav-link"> Courses</a>
+          <a href="results.html" class=" text-white"><i class="fa fa-book"></i></a><a href="results.html" class="nav-link"> Courses</a>
         </li>
         <li class="nav-item">
-          <i class="fa fa-tag"></i> <a href="#" class="nav-link"> Course details</a>
+          <a href="details.html" class=" text-white"><i class="fa fa-tag"></i></a> <a href="details.html" class="nav-link"> Course details</a>
         </li>
       </ul>
     </div>
@@ -35,31 +35,32 @@
   <main>
 
     <section class="search d-flex flex-column align-items-center justify-content-center p-4">
-      <div class="text">
-        <h3 class="text-white text-uppercase">
-          Hilnex Educators is an online courses website that offers you the best courses on computer science.
-        </h3>
+      <div class="text d-flex flex-column align-items-center container">
+          <h3 class="text-white text-uppercase">
+            Hilnex Educators is an online courses website that offers you the best courses on computer science.
+          </h3>
+        
+
+        <form class="p-4 m-2" action="results.html">
+          <label class="text-uppercase">
+            Search by keyword:
+          </label>
+
+          <div class="search-box d-flex">
+            <input type="search" class="mb-1 p-1" required>
+            <button type="submit" value="search" class="p-1 text-white">Search</button>
+          </div>
+        </form>
+
+        <button type="button" class="m-4 p-2 bt">How it works</button>
       </div>
-
-      <form class="p-4 m-2">
-        <label class="text-uppercase">
-          Search by keyword:
-        </label>
-
-        <div class="search-box d-flex flex-column">
-          <input type="search" class="m-2">
-          <button type="submit" class="m-2 p-1 text-white">Search</button>
-        </div>
-      </form>
-
-      <button class="m-4 p-2 bt">How it works</button>
 
     </section>
 
     <section class="content">
       <h3>Hilnex Educator works in four simple ways</h3>
 
-      <div class="row">
+      <div class="row container">
         <div class="col-md-6 works d-flex flex-column align-items-center text-center p-3">
           <i class="fa fa-search m-2"></i>
           <h4>1-Search</h4>
@@ -77,7 +78,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row container">
         <div class="col-md-6 works d-flex flex-column align-items-center text-center p-3">
           <i class="fas fa-scroll m-2"></i>
           <h4>3-Enroll</h4>
@@ -96,16 +97,14 @@
       </div>
     </section>
 
-    <section class="more mt-2 p-3">
-      <div class="row">
+    <section class="more mt-2 p-5">
+      <div class="row container">
         <div class="col-md-8 enroll my-3">
           <h5 >Over 10,000 students enrolled with us</h5>
           <p>
             Find some of the best computer science online courses
           </p>
-          <a href="">
             <button type="submit" class="p-2">Find a course</button>
-          </a>
         </div>
 
         <div class="col-md-4 enroll-img">
@@ -114,16 +113,14 @@
       </div>
     </section>
 
-    <section class="anywhere">
-      <div class="row">
+    <section class="anywhere p-5">
+      <div class="row container">
         <div class="col-md-8 enroll my-3">
           <h5>Study from anywhere at any time you prefer</h5>
           <p>
             With our online courses you can study from anywhere in the world.
           </p>
-          <a href="">
             <button type="submit" class="p-2">Get a course</button>
-          </a>
         </div>
 
         <div class="col-md-4 enroll-img">
@@ -157,7 +154,7 @@
         </ul>
       </div>
 
-      <div class="row">
+      <div class="d-flex sub-con container">
         <div class="col-md-4 text-white py-3 sub ml-3">
           <h4>Subscribe</h4>
           <form>

@@ -1,0 +1,26 @@
+.filter {
+  background-color: rgb(233, 229, 229);
+
+  h3 {
+    color: gray;
+  }
+
+  select {
+    outline: none;
+  }
+
+  .para {
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+
+  button {
+    border-radius: 7px;
+  }
+}
+
+.result {
+  h3 {
+    color: rgb(77, 75, 75);
+  }
+}

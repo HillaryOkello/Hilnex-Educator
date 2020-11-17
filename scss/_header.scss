@@ -2,28 +2,94 @@ $white: #fff;
 $black: #000;
 $background: rgb(243, 28, 28);
 
-.header {
-  background-color: $background;
-  height: 65px;
+$breakpoint-mobile: 786px;
 
-  .list {
-    color: $white;
-    list-style: none;
-  
+@media (max-width: $breakpoint-mobile) {
+  .header {
+    background-color: $background;
+    height: 70px;
+
+    .list {
+      color: $white;
+      list-style: none;
+
+      .nav-link {
+        display: none;
+      }
+
+      .nav-item {
+        &:hover {
+          background-color: rgb(246, 93, 93);
+          text-decoration: none;
+        }
+      }
+
+      .nav-item i {
+        margin: 5px;
+        padding: 20px;
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+$breakpoint-tablet: 768px;
+
+$breakpoint-desktop: 1024px;
+
+@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+  .header {
+    background-color: $background;
+    height: 70px;
+
+    .list {
+      color: $white;
+      list-style: none;
+
+      .nav-link {
+        display: none;
+      }
+
+      .nav-item {
+        &:hover {
+          background-color: rgb(246, 93, 93);
+          text-decoration: none;
+        }
+      }
+
+      .nav-item i {
+        margin: 5px;
+        padding: 20px;
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+$breakpoint-desktop: 1024px;
+
+@media (min-width: $breakpoint-desktop) {
+  .header {
+    background-color: $background;
+    height: 70px;
+
     .nav-link {
-      display: none;
+      display: inline-block !important;
+      color: $white;
+    }
+
+    .list {
+      color: $white;
+      list-style: none;
     }
 
     .nav-item {
-      &:hover {
-        background-color: rgb(246, 93, 93);
-        text-decoration: none;
-      }
+      margin-top: 10px;
     }
-  
+
     .nav-item i {
-      margin: 5px;
-      padding: 20px;
+      margin: 2px;
+      padding: 5px;
       font-size: 1.2em;
     }
   }

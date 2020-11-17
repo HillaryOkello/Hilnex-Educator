@@ -1,28 +1,134 @@
 @import url(../css/fonts.css);
-.header {
-  background-color: #f31c1c;
-  height: 65px;
+@media (max-width: 786px) {
+  .header {
+    background-color: #f31c1c;
+    height: 70px;
+  }
+  .header .list {
+    color: #fff;
+    list-style: none;
+  }
+  .header .list .nav-link {
+    display: none;
+  }
+  .header .list .nav-item:hover {
+    background-color: #f65d5d;
+    text-decoration: none;
+  }
+  .header .list .nav-item i {
+    margin: 5px;
+    padding: 20px;
+    font-size: 1.2em;
+  }
 }
-.header .list {
-  color: #fff;
-  list-style: none;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    background-color: #f31c1c;
+    height: 70px;
+  }
+  .header .list {
+    color: #fff;
+    list-style: none;
+  }
+  .header .list .nav-link {
+    display: none;
+  }
+  .header .list .nav-item:hover {
+    background-color: #f65d5d;
+    text-decoration: none;
+  }
+  .header .list .nav-item i {
+    margin: 5px;
+    padding: 20px;
+    font-size: 1.2em;
+  }
 }
-.header .list .nav-link {
-  display: none;
+@media (min-width: 1024px) {
+  .header {
+    background-color: #f31c1c;
+    height: 70px;
+  }
+  .header .nav-link {
+    display: inline-block !important;
+    color: #fff;
+  }
+  .header .list {
+    color: #fff;
+    list-style: none;
+  }
+  .header .nav-item {
+    margin-top: 10px;
+  }
+  .header .nav-item i {
+    margin: 2px;
+    padding: 5px;
+    font-size: 1.2em;
+  }
 }
-.header .list .nav-item:hover {
-  background-color: #f65d5d;
-  text-decoration: none;
+.filter {
+  background-color: #e9e5e5;
 }
-.header .list .nav-item i {
-  margin: 5px;
-  padding: 20px;
+.filter h3 {
+  color: gray;
+}
+.filter select {
+  outline: none;
+}
+.filter .para {
   font-size: 1.2em;
+  font-weight: 700;
+}
+.filter button {
+  border-radius: 7px;
+}
+
+.result h3 {
+  color: #4d4b4b;
+}
+
+.intro .card {
+  width: 50%;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+.more {
+  background-color: #f56565;
+}
+.more h5 {
+  font-size: 1.5em;
+  color: #fff;
+}
+.more p {
+  font-size: 1.2em;
+  color: #fff;
+}
+.more button {
+  background-color: #fff;
+  border: none;
+  color: #f31c1c;
+  font-size: 1.2em;
+}
+
+.anywhere {
+  background-color: gray;
+}
+.anywhere h5 {
+  font-size: 1.5em;
+  color: #fff;
+}
+.anywhere p {
+  font-size: 1.2em;
+  color: #fff;
+}
+.anywhere button {
+  background-color: #fff;
+  border: none;
+  color: gray;
+  font-size: 1.2em;
 }
 
 .search {
@@ -34,6 +140,9 @@
   background: rgba(225, 227, 225, 0.7);
   width: 100%;
   border-radius: 20px;
+}
+.search form .search-box {
+  flex-direction: column;
 }
 .search form input {
   outline: none;
@@ -63,46 +172,10 @@
   font-size: 2.2em;
 }
 
-.more {
-  background-color: #f56565;
-}
-.more h5 {
-  font-size: 1.5em;
-  color: #fff;
-}
-.more p {
-  font-size: 1.2em;
-  color: #fff;
-}
-.more button {
-  background-color: #fff;
-  border: none;
-  color: #f31c1c;
-  font-size: 1.2em;
-}
-
 .enroll-img img {
   width: 50%;
   border-radius: 50%;
   background: #fff;
-}
-
-.anywhere {
-  background-color: gray;
-}
-.anywhere h5 {
-  font-size: 1.5em;
-  color: #fff;
-}
-.anywhere p {
-  font-size: 1.2em;
-  color: #fff;
-}
-.anywhere button {
-  background-color: #fff;
-  border: none;
-  color: gray;
-  font-size: 1.2em;
 }
 
 footer .foot-1 {
@@ -135,4 +208,24 @@ footer .foot-2 .foot-icons {
 }
 footer .foot-2 .foot-icons li a {
   color: #fff;
+}
+
+@media (max-width: 786px) {
+  .sub-con {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .search .text {
+    width: 70%;
+  }
+  .search form .search-box {
+    flex-direction: row !important;
+    width: 100%;
+  }
+  .search form .search-box input {
+    width: 80%;
+    margin-right: 0;
+    padding-right: 0;
+  }
 }
