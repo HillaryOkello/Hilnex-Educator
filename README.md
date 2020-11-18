@@ -1,5 +1,5 @@
 # Hilnex-Educator
-> Hilnex Educator is an online course directory built with HTML, CSS, Bootstrap and SASS. I built it as my capstone project after completing the HTML and CSS module at Microverse
+> Hilnex Educator is an online course directory, it helps you find the right online course for you. You can search, locate and enroll in any course you are intrested in and get to learn new things. It is built with HTML, CSS, Bootstrap and SASS. I built it as my capstone project after completing the HTML and CSS module at Microverse
 
 ![educate](https://user-images.githubusercontent.com/61744527/99393328-3a472280-28ee-11eb-8fd5-67b96da07213.PNG)
 
