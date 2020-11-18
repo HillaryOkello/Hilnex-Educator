@@ -11,10 +11,10 @@
 
 $white: #fff;
 $black: #000;
-$background: rgb(243, 28, 28);
+$background: #D35649;
 
 .more {
-  background-color: rgb(245, 101, 101);
+  background-color: #E27F65;
 
   h5 {
     font-size: 1.5em;
@@ -35,7 +35,7 @@ $background: rgb(243, 28, 28);
 }
 
 .anywhere {
-  background-color: gray;
+  background-color: #98A4A5;
 
   h5 {
     font-size: 1.5em;
@@ -137,11 +137,12 @@ footer {
   }
 
   .foot-2 {
-    background-color: gray;
+    background-color: #1F1F1F;
 
     .foot-icons {
       list-style: none;
-      font-size: 1.5em;
+      font-size: 1.1em;
+      color: #555555;
 
       li a {
         color: $white;

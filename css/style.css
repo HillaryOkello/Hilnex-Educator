@@ -2,7 +2,7 @@
 @media (max-width: 786px) {
   .header {
     flex-flow: column;
-    background-color: #f31c1c;
+    background-color: #D35649;
     align-items: center;
   }
   .header .list {
@@ -24,7 +24,7 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .header {
-    background-color: #f31c1c;
+    background-color: #D35649;
   }
   .header .list {
     color: #fff;
@@ -45,7 +45,7 @@
 }
 @media (min-width: 1024px) {
   .header {
-    background-color: #f31c1c;
+    background-color: #D35649;
     height: 70px;
   }
   .header .nav-link {
@@ -96,7 +96,7 @@
 }
 
 .more {
-  background-color: #f56565;
+  background-color: #E27F65;
 }
 .more h5 {
   font-size: 1.5em;
@@ -109,12 +109,12 @@
 .more button {
   background-color: #fff;
   border: none;
-  color: #f31c1c;
+  color: #D35649;
   font-size: 1.2em;
 }
 
 .anywhere {
-  background-color: gray;
+  background-color: #98A4A5;
 }
 .anywhere h5 {
   font-size: 1.5em;
@@ -150,7 +150,7 @@
   font-size: 1.2em;
 }
 .search form button {
-  background-color: #f31c1c;
+  background-color: #D35649;
   outline: none;
   border: none;
   font-size: 1.2em;
@@ -165,7 +165,7 @@
   margin-top: 30px;
 }
 .content h3 {
-  color: #f31c1c;
+  color: #D35649;
   text-align: center;
 }
 .content .works i {
@@ -195,16 +195,17 @@ footer .foot-1 .sub button {
   color: #fff;
 }
 footer .foot-1 .con p a {
-  color: #f31c1c;
+  color: #D35649;
   text-decoration: none;
   font-weight: 600;
 }
 footer .foot-2 {
-  background-color: gray;
+  background-color: #1F1F1F;
 }
 footer .foot-2 .foot-icons {
   list-style: none;
-  font-size: 1.5em;
+  font-size: 1.1em;
+  color: #555555;
 }
 footer .foot-2 .foot-icons li a {
   color: #fff;
