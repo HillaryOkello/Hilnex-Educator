@@ -153,6 +153,16 @@ footer {
 $breakpoint-mobile: 786px;
 
 @media (max-width: $breakpoint-mobile) {
+  .search {
+    input {
+      margin: 5px;
+    }
+
+    button {
+      margin: 5px;
+    }
+  }
+
   .sub-con {
     flex-direction: column;
   }

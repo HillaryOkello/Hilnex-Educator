@@ -6,8 +6,10 @@ $breakpoint-mobile: 786px;
 
 @media (max-width: $breakpoint-mobile) {
   .header {
+    flex-flow: column;
     background-color: $background;
-    height: 70px;
+    height: fit-content;
+    align-items: center;
 
     .list {
       color: $white;
@@ -40,7 +42,7 @@ $breakpoint-desktop: 1024px;
 @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
   .header {
     background-color: $background;
-    height: 70px;
+    height: fit-content;
 
     .list {
       color: $white;
@@ -84,12 +86,12 @@ $breakpoint-desktop: 1024px;
     }
 
     .nav-item {
-      margin-top: 10px;
+      margin-top: 20px;
     }
 
     .nav-item i {
-      margin: 2px;
-      padding: 5px;
+      margin: 0px;
+      padding: 1px;
       font-size: 1.2em;
     }
   }

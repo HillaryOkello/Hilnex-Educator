@@ -1,8 +1,12 @@
 @import url(../css/fonts.css);
 @media (max-width: 786px) {
   .header {
+    flex-flow: column;
     background-color: #f31c1c;
-    height: 70px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    align-items: center;
   }
   .header .list {
     color: #fff;
@@ -24,7 +28,9 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .header {
     background-color: #f31c1c;
-    height: 70px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .header .list {
     color: #fff;
@@ -57,11 +63,11 @@
     list-style: none;
   }
   .header .nav-item {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .header .nav-item i {
-    margin: 2px;
-    padding: 5px;
+    margin: 0px;
+    padding: 1px;
     font-size: 1.2em;
   }
 }
@@ -211,6 +217,13 @@ footer .foot-2 .foot-icons li a {
 }
 
 @media (max-width: 786px) {
+  .search input {
+    margin: 5px;
+  }
+  .search button {
+    margin: 5px;
+  }
+
   .sub-con {
     flex-direction: column;
   }
