@@ -19,7 +19,7 @@
 👤 **Hillary Okello**
 
 - GitHub: [@githubhandle](https://github.com/HillaryOkello)
-- Twitter: [@twitterhandle](https://twitter.com/Kellyhillary4e)
+- Twitter: [@twitterhandle](https://twitter.com/Kellyhillary4)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hillary-okello-b173101a4/)
 
 ## 🤝 Contributing
