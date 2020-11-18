@@ -2,7 +2,7 @@
 @media (max-width: 786px) {
   .header {
     flex-flow: column;
-    background-color: #D35649;
+    background-color: #d35649;
     align-items: center;
   }
   .header .list {
@@ -24,7 +24,7 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .header {
-    background-color: #D35649;
+    background-color: #d35649;
   }
   .header .list {
     color: #fff;
@@ -45,7 +45,7 @@
 }
 @media (min-width: 1024px) {
   .header {
-    background-color: #D35649;
+    background-color: #d35649;
     height: 70px;
   }
   .header .nav-link {
