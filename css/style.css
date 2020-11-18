@@ -3,9 +3,6 @@
   .header {
     flex-flow: column;
     background-color: #f31c1c;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
     align-items: center;
   }
   .header .list {
@@ -28,9 +25,6 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .header {
     background-color: #f31c1c;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
   }
   .header .list {
     color: #fff;
@@ -66,7 +60,7 @@
     margin-top: 20px;
   }
   .header .nav-item i {
-    margin: 0px;
+    margin: 0;
     padding: 1px;
     font-size: 1.2em;
   }
