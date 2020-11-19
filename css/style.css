@@ -49,7 +49,7 @@
     height: 70px;
   }
   .header .nav-link {
-    display: inline-block !important;
+    display: inline-block;
     color: #fff;
   }
   .header .list {
@@ -232,7 +232,7 @@ footer .foot-2 .foot-icons li a {
     width: 70%;
   }
   .search form .search-box {
-    flex-direction: row !important;
+    flex-direction: row;
     width: 100%;
   }
   .search form .search-box input {

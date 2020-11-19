@@ -184,7 +184,7 @@ $breakpoint-tablet: 768px;
 
     form {
       .search-box {
-        flex-direction: row !important;
+        flex-direction: row;
         width: 100%;
 
         input {
