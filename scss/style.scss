@@ -60,6 +60,11 @@ $background: #d35649;
   height: 100vh;
   background-size: cover;
 
+  .text h1 {
+    font-size: 1.7em;
+    font-weight: 600;
+  }
+
   form {
     background: rgb(225, 227, 225, 0.7);
     width: 100%;
@@ -151,7 +156,7 @@ footer {
   }
 }
 
-$breakpoint-mobile: 786px;
+$breakpoint-mobile: 768px;
 
 @media (max-width: $breakpoint-mobile) {
   .search {

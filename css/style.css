@@ -1,5 +1,5 @@
 @import url(../css/fonts.css);
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   .header {
     flex-flow: column;
     background-color: #d35649;
@@ -136,6 +136,10 @@
   height: 100vh;
   background-size: cover;
 }
+.search .text h1 {
+  font-size: 1.7em;
+  font-weight: 600;
+}
 .search form {
   background: rgba(225, 227, 225, 0.7);
   width: 100%;
@@ -211,7 +215,7 @@ footer .foot-2 .foot-icons li a {
   color: #fff;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   .search input {
     margin: 5px;
   }
