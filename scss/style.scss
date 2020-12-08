@@ -1,0 +1,198 @@
+@use '_header.scss';
+@use '_results.scss';
+@use '_details.scss';
+
+@import url(../css/fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$white: #fff;
+$black: #000;
+$background: #d35649;
+
+.more {
+  background-color: #e27f65;
+
+  h5 {
+    font-size: 1.5em;
+    color: $white;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: $white;
+  }
+
+  button {
+    background-color: $white;
+    border: none;
+    color: $background;
+    font-size: 1.2em;
+  }
+}
+
+.anywhere {
+  background-color: #98a4a5;
+
+  h5 {
+    font-size: 1.5em;
+    color: $white;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: $white;
+  }
+
+  button {
+    background-color: $white;
+    border: none;
+    color: gray;
+    font-size: 1.2em;
+  }
+}
+
+.search {
+  background: url(https://images.pexels.com/photos/7102/notes-macbook-study-conference.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;
+  height: 100vh;
+  background-size: cover;
+
+  .text h1 {
+    font-size: 1.7em;
+    font-weight: 600;
+  }
+
+  form {
+    background: rgb(225, 227, 225, 0.7);
+    width: 100%;
+    border-radius: 20px;
+
+    .search-box {
+      flex-direction: column;
+    }
+
+    input {
+      outline: none;
+      border: none;
+      font-size: 1.2em;
+    }
+
+    button {
+      background-color: $background;
+      outline: none;
+      border: none;
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+  }
+
+  .bt {
+    border: none;
+    font-size: 1.1em;
+  }
+}
+
+.content {
+  margin-top: 30px;
+
+  h3 {
+    color: $background;
+    text-align: center;
+  }
+
+  .works i {
+    font-size: 2.2em;
+  }
+}
+
+.enroll-img img {
+  width: 50%;
+  border-radius: 50%;
+  background: #fff;
+}
+
+footer {
+  .foot-1 {
+    background-color: $black;
+
+    .foot-list {
+      border-top: 1px solid $white;
+      border-bottom: 1px solid $white;
+      list-style: none;
+
+      li a {
+        color: $white;
+        font-size: 1.4em;
+      }
+    }
+
+    .sub button {
+      background-color: gray;
+      color: $white;
+    }
+
+    .con p a {
+      color: $background;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+
+  .foot-2 {
+    background-color: #1f1f1f;
+
+    .foot-icons {
+      list-style: none;
+      font-size: 1.1em;
+      color: #555;
+
+      li a {
+        color: $white;
+      }
+    }
+  }
+}
+
+$breakpoint-mobile: 768px;
+
+@media (max-width: $breakpoint-mobile) {
+  .search {
+    input {
+      margin: 5px;
+    }
+
+    button {
+      margin: 5px;
+    }
+  }
+
+  .sub-con {
+    flex-direction: column;
+  }
+}
+
+$breakpoint-tablet: 768px;
+
+@media (min-width: $breakpoint-tablet) {
+  .search {
+    .text {
+      width: 70%;
+    }
+
+    form {
+      .search-box {
+        flex-direction: row;
+        width: 100%;
+
+        input {
+          width: 80%;
+          margin-right: 0;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
